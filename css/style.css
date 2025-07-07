@@ -1,0 +1,151 @@
+/*fonte Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#fff ;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+/* ------------------ Cabeçalho -------------------------- */
+header{
+    background-color: #578AAF;    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-right: 64px;
+}
+
+header nav{
+    display: flex;
+    gap:64px;
+}
+
+header nav a{
+    width: 128px;
+    text-align: center;
+    text-decoration: none;/* Remover decoração link */
+    background-color: #F0984B; /*cor de fundo link  */
+    padding: 32px;
+    border-radius: 10px;
+    color:#0F548B; /* Cor da fonte link */    
+    font-size: 20px;  /* Tamanho da fonte  */
+}
+
+
+
+/* ---------- Main padrão ----------------  */
+main{
+    text-align: center;
+}
+
+h1{
+    padding: 32px;
+}
+
+
+
+
+
+/* ----------------- Página Home---------------- */
+.main-video{
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    margin-top: 28px;
+   
+    
+}
+.main-video iframe{
+     width: 80%;
+     height: 425px;   
+}
+
+.main-txt-senac{
+    margin: auto;
+    margin-top: 28px;
+    padding: 28px;
+     width: 80%;
+    background-color:#578AAF ;
+    text-align: justify;
+    border-radius: 20px;
+}
+
+.main-txt-senac h1{
+    font-size: 28px;
+}
+
+.main-txt-senac p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+
+
+
+/* ------------- Página Servico ----------------------- */
+.servico {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap; /* Permite quebrar linha */
+    gap: 2%;          /* Espaço entre os cards */
+    justify-content: space-between;
+}
+
+.servico .card {
+    background-color: #578AAF;
+    width: 25%;              /* Três por linha: 25% + 2% de gap entre cada =79 */  
+    border-radius: 2px;
+    padding: 1rem;
+    color: #fff;
+    text-align: center;
+    margin: 10px 0 10px 0 ;
+    border-radius: 10px;
+}
+.servico .card h2{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.servico .card p {
+  line-height: 1.6;
+  font-size: 20px;
+}
+
+
+
+/* contato */
+form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+/* -----------------rodapé----------------------------- */
+footer{
+    margin-top: 32px;
+    background-color: #EF8423;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+ 
+
+    
+
